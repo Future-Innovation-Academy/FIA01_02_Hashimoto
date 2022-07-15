@@ -1,0 +1,165 @@
+/* common settings */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family:sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+
+
+/* header */
+
+
+header {
+    height: auto;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-heft {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.nav-item {
+    font-size: 21px;
+   
+}
+
+
+
+.top {
+    padding: 180px 0 100px 0;
+    background-image: url(/html_hashimoto_02/img/mainbg.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+
+
+.about {
+    text-align: center;
+}
+
+
+.about-image li {
+    list-style: none;
+  }
+
+.about-image ul {
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+/* cource */
+
+.course-image01 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content01 {
+    display: flex;
+  }
+  
+  .image01 img {
+    width: 100%;
+    vertical-align: bottom;
+  }
+  
+  .image01,
+  .text01 {
+    width: 50%;
+  }
+  
+  .text01 {
+    background: #fafafa;
+    padding: 10px;  
+  }
+
+
+  .course-image02 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content02 {
+    display: flex;
+  }
+  
+  .image02 img {
+    width: 100%;
+    vertical-align: bottom;
+  }
+  
+  .image02,
+  .text02 {
+    width: 50%;
+  }
+  
+  .text02 {
+    background: #fafafa;
+    padding: 10px;  
+  }
+
+
+  .course-image03 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content03 {
+    display: flex;
+  }
+  
+  .image03 img {
+    width: 100%;
+    vertical-align: bottom;
+  }
+  
+  .image03,
+  .text03 {
+    width: 50%;
+  }
+  
+  .text03 {
+    background: #fafafa;
+    padding: 10px;  
+  }
+
+
+
+
